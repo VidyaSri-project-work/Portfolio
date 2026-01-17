@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A.K. Vidya Sri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Vidya ✨</h2>
+    <div class="nav-buttons">
+        <button onclick="scrollToSection('home')">Home</button>
+        <button onclick="scrollToSection('about')">About</button>
+        <button onclick="scrollToSection('academics')">Academics</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+        <button onclick="scrollToSection('projects')">Projects</button>
+        <button onclick="scrollToSection('certificates')">Certificates</button>
+        <button onclick="scrollToSection('contact')">Contact</button>
+        <button onclick="toggleDarkMode()">🌙</button>
+    </div>
+</nav>
+
+<!-- FLOATING TOP BUTTON -->
+<button class="top-btn" onclick="scrollToSection('home')">⬆</button>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="particles"></div>
+    <div class="hero-content">
+        <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\611423104176(A_K.Vidya_Sri)_page-0001[1].jpg" alt="Vidya Sri" class="profile-pic">
+        <h1 class="typing"></h1>
+        <p class="fade-in">3rd year Computer Science student aspiring Android App Developer & Software Developer, actively preparing for internships and campus placements.</p>
+        <button class="hero-btn" onclick="scrollToSection('projects')">
+            View My Work 🚀
+        </button>
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+    <h2>About Me 🌟</h2>
+    <div class="about-grid">
+
+        <!-- Strengths -->
+        <div class="about-card">
+            <h3>✨ Strengths</h3>
+            <ul>
+                <li>Logical thinker & problem solver</li>
+                <li>Curious & always learning new tech</li>
+                <li>Team player with leadership experience</li>
+                <li>Organized and detail-oriented</li>
+            </ul>
+        </div>
+
+        <!-- Areas to Improve -->
+        <div class="about-card">
+            <h3>⚡ Areas to Improve</h3>
+            <ul>
+                <li>Can spend too much time perfecting small details</li>
+                <li>Improving public speaking & presenting technical ideas</li>
+            </ul>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="about-card">
+            <h3>🎯 Hobbies & Interests</h3>
+            <ul>
+                <li>Coding challenges & app development</li>
+                <li>Reading tech blogs & exploring AI innovations</li>
+                <li>Designing creative solutions & experimenting with projects</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ACADEMICS -->
+<section id="academics" class="reveal">
+    <h2>Academic Background 🎓</h2>
+    <p class="academic-intro">
+        My academic journey reflects consistent learning, strong fundamentals,
+        and a growing interest in Computer Science and technology.
+    </p>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Board / University</th>
+                    <th>Year of Completion</th>
+                    <th>Percentage / CGPA</th>
+                    <th>Key Highlights</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSLC</td>
+                    <td>Masathiyar Corporation Girls Higher Secondary School</td>
+                    <td>State Board</td>
+                    <td>2020–21</td>
+                    <td>–</td>
+                    <td>Strong foundation in Mathematics and Science</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Masathiyar Corporation Girls Higher Secondary School</td>
+                    <td>State Board</td>
+                    <td>2021–2023</td>
+                    <td>79.16%</td>
+                    <td>Excelled in Mathematics and analytical subjects</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="academic-summary">
+        <h3>Academic Focus & Skills Developed</h3>
+        <ul>
+            <li>✔ Strong analytical and logical reasoning skills</li>
+            <li>✔ Good understanding of Mathematics and Computer Science basics</li>
+            <li>✔ Hands-on experience in Python and problem-solving</li>
+            <li>✔ Consistent academic performance and learning attitude</li>
+            <li>✔ Prepared for software development, Android development, and AI applications</li>
+        </ul>
+    </div>
+</section> 
+
+<!-- SKILLS -->
+<section id="skills" class="reveal">
+    <h2>Technical Skills 💻</h2>
+    <div class="skills-container">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">C</div>
+        <div class="skill-card">Android Studio</div>
+        <div class="skill-card">Kotlin</div>
+        <div class="skill-card">JetPackCompose</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Git / GitHub</div>
+        <div class="skill-card">OOPS / DBMS / DSA</div>
+        <div class="skill-card">Basics of AI / ML</div>
+        
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="reveal">
+    <h2>Projects 🚀</h2>
+    <div class="card-container">
+        <div class="card glow">
+            <h3>Food / Recipe Website</h3>
+            <p>Interactive website for browsing food recipes.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Netlify</p>
+            <a href="https://recepimakejuzupee.netlify.app/" target="_blank" class="btn-link">Live Demo</a>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="reveal">
+    <h2>Certificates & Achievements 🏆</h2>
+    <div class="cert-grid">
+        <!-- Tech Spark 2K24 -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.32.16 PM.jpeg" alt="Tech Spark 2K24">
+            <h4>1st Prize – Tech Spark 2K24</h4>
+            <p>Generative AI | Annai Mathammal Sheela Engineering College</p>
+        </div>
+
+        <!-- AI & ML Workshop -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.32.42 PM.jpeg" alt="AI Workshop">
+            <h4>AI & ML Workshop</h4>
+            <p>Excel Engineering College | 2-Day Workshop</p>
+        </div>
+
+        <!-- Student Development Program -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2025-12-24 at 9.10.12 PM.jpeg" alt="AI Innovators Hub">
+            <h4>Student Development Program</h4>
+            <p>AI Innovators Hub | 6-Day Program | Mahendra Engineering College</p>
+        </div>
+
+        <!-- Fullstack Internship -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.33.15 PM.jpeg" alt="Fullstack Internship">
+            <h4>Full-Stack Development Internship</h4>
+            <p>Elysium Technologies</p>
+        </div>
+
+        <!-- Fullstack & Web Development Internship -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.30.26 PM.jpeg" alt="Fullstack & Web Dev Internship">
+            <h4>Full-Stack & Web Development Internship</h4>
+            <p>Marcello Tech</p>
+        </div>
+
+        <!-- AWS Internship -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.37.29 PM.jpeg" alt="AWS Internship">
+            <h4>AWS Cloud Computing Internship</h4>
+            <p>Elewayte Cloud Computing</p>
+        </div>
+
+        <!-- Innovation Ambassador Program -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2025-12-19 at 9.19.20 PM.jpeg" alt="Innovation Ambassador Program">
+            <h4>Innovation Ambassador Program</h4>
+            <p>Foundation / Advanced / Reskilling Levels</p>
+        </div>
+
+        <!-- NPTEL Java -->
+        <div class="cert-card glow">
+            <img src="c:\Users\star\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1DB11386EC09CE16EE9E052D071A71EF2DA547ED\transfers\2026-03\WhatsApp Image 2026-01-17 at 1.38.46 PM.jpeg" alt="NPTEL Programming in Java">
+            <h4>NPTEL – Programming in Java</h4>
+            <p>Elite Silver | Score: 76%</p>
+        </div>
+
+        <!-- Add more certificates as needed -->
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="reveal">
+    <h2>Contact Me 📬</h2>
+    <p>Email: <a href="mailto:kumaranvidyasri@gmail.com">kumaranvidyasri@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/vidyasrikumaran/" target="_blank">Vidya Sri</a></p>
+    <p>GitHub: <a href="https://github.com/VidyaSri-project-work" target="_blank">VidyaSri-project-work</a></p>
+  
+
+    <!-- Download Resume Button -->
+<a href="https://1drv.ms/f/c/1b4b5cc4462d6983/IgD3eWh8oxG3RJaYljrOpzv7AY4uRwklm7fbGskalTNeiS4?e=9qIdej" download="VidyaSri_Resume.pdf" class="resume-btn">
+    Download Resume 📄
+</a>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
